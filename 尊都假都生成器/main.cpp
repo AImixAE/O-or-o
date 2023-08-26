@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-#include "尊都假都.hpp"
+#include "灏婇兘鍋囬兘.hpp"
 
 int main() {
-	尊都假都.运行();
+	灏婇兘鍋囬兘.杩愯();
 
 	return 0;
 }
