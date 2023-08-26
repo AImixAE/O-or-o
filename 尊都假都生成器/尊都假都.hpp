@@ -1,44 +1,42 @@
 #include <iostream>
 using namespace std;
 
-
-
-struct ×ğ¶¼¼Ù¶¼ {
-	string ÅĞ¶Ï(string x) {
-		if (x == "o.O") return "×ğ¶¼";
-		else if (x == "O.o") return "¼Ù¶¼";
-		else if (x == "o.o") return "¼Ù¶¼";
-		else if (x == "O.O") return "×ğ¶¼";
-		else if (x == "o.O.o") return "ÈıÍ·Áù¶¼";
-		else if (x == "O.o.O") return "¹ÖÎï¶¼¶¼";
-		else if (x == "(^o^)") return "¿É°®¶¼¶¼";
-		else if (x == "(^O^)") return "³Ô·¹¶¼¶¼";
-		else if (x == "o.o.o") return "ÈıÑÛ¶¼¶¼";
-		else if (x == "O.O.O") return "½¨Öş¶¼¶¼";
-		else return "Èç¶¼";
+struct å°Šéƒ½å‡éƒ½ {
+	string åˆ¤æ–­(string x) {
+		if (x == "o.O") return "å°Šéƒ½";
+		else if (x == "O.o") return "å‡éƒ½";
+		else if (x == "o.o") return "å‡éƒ½";
+		else if (x == "O.O") return "å°Šéƒ½";
+		else if (x == "o.O.o") return "ä¸‰å¤´å…­éƒ½";
+		else if (x == "O.o.O") return "æ€ªç‰©éƒ½éƒ½";
+		else if (x == "(^o^)") return "å¯çˆ±éƒ½éƒ½";
+		else if (x == "(^O^)") return "åƒé¥­éƒ½éƒ½";
+		else if (x == "o.o.o") return "ä¸‰çœ¼éƒ½éƒ½";
+		else if (x == "O.O.O") return "å»ºç­‘éƒ½éƒ½";
+		else return "å¦‚éƒ½";
 	}
 
-	void °ïÖú() {
-		cout << "ÒÔÏÂÊÇËùÓĞ×ğ¶¼¼Ù¶¼ÄÚÈİ: " << endl
+	void å¸®åŠ©() {
+		cout << "ä»¥ä¸‹æ˜¯æ‰€æœ‰å°Šéƒ½å‡éƒ½å†…å®¹: " << endl
 			<< "o.o  O.O  o.O  O.o  o.O.o  O.o.O  (^o^)  (^O^)  o.o.o  O.O.O" << endl;
 	}
 
-	void ÔËĞĞ() {
-		cout << "×ğ¶¼¼Ù¶¼Éú³ÉÆ÷ v1.0.3" << endl
-			<< "×÷Õß: AImixAE" << endl
-			<< "ÊäÈë help ¿É²é¿´ËùÓĞÄÚÈİ" << endl
-			<< "ÊäÈë exit ¿ÉÍË³ö" << endl;
+	void è¿è¡Œ() {
+		cout << "å°Šéƒ½å‡éƒ½ç”Ÿæˆå™¨ v1.0.3" << endl
+			<< "ä½œè€…: AImixAE" << endl
+			<< "è¾“å…¥ help å¯æŸ¥çœ‹æ‰€æœ‰å†…å®¹" << endl
+			<< "è¾“å…¥ exit å¯é€€å‡º" << endl;
 		while (true) {
 			string oO;
-			cout << "ÊäÈëÄãµÄ»³ÒÉ¶¼: "; cin >> oO;
+			cout << "è¾“å…¥ä½ çš„æ€€ç–‘éƒ½: "; cin >> oO;
 			if (oO == "exit") {
-				cout << "·ñ¶¼" << endl;
+				cout << "å¦éƒ½" << endl;
 				break;
 			}
 			else if (oO == "help") {
-				°ïÖú();
+				å¸®åŠ©();
 			}
-			else cout << ÅĞ¶Ï(oO) << endl << endl;
+			else cout << åˆ¤æ–­(oO) << endl << endl;
 		}
 	}
-}×ğ¶¼¼Ù¶¼;
+}å°Šéƒ½å‡éƒ½;
